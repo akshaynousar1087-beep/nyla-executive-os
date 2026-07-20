@@ -1,0 +1,15 @@
+.page .dash-grid {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 900px) {
+  .page .dash-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 620px) {
+  .page .dash-grid {
+    grid-template-columns: 1fr;
+  }
+}
